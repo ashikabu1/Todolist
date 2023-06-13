@@ -1,0 +1,98 @@
+.head{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(233, 230, 227);
+    gap: 80px;
+    align-items: center;
+    position: fixed;
+}
+input{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgb(228, 240, 228);
+}
+a{
+    text-decoration: none;
+    color: rgb(5, 9, 224);
+}
+.sp{
+    color: rgb(255, 9, 9);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large; 
+    font-weight: bolder;
+}
+.child{
+    float: left;
+    border-radius: 10px;
+    width: 30%;
+    height: 50%;
+    margin-left: 2.8%;
+    margin-top: 8%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    transition: box-shadow 0.3s ease-in-out;
+    margin-bottom: 2%;
+}
+.child:hover{
+    box-shadow: 0 4px 8px rgb(235, 5, 5);
+}
+img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.hed{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(15, 15, 15);
+}
+.pri{
+    text-align: left;
+    margin-left: 9%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.heart{
+    margin-left: 62%;
+    color: rgb(155, 12, 12);
+}
+.dollar{
+    color: rgb(58, 50, 85);
+}
+.bran{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+    color: rgb(44, 32, 77);
+    text-align: left;
+    margin-left: 9%;
+}
+.btn{
+    width: 30%;
+    height: 30px;
+    background-color: rgba(248, 245, 245, 0.678);
+    border-radius: 20px;  
+    border-style: groove;
+    margin-right: 58%;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    color: rgb(11, 155, 221);
+    
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
