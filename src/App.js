@@ -1,10 +1,10 @@
 import React from 'react'
-import Abc from './Components/Axios/Abc'
+import Sky from './Components/Wheather/Sky'
 
 const App = () => {
   return (
     <div>
-      <Abc/>
+      <Sky/>
     </div>
   )
 }
