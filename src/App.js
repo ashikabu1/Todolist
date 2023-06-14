@@ -1,10 +1,10 @@
 import React from 'react'
-import Sky from './Components/Wheather/Sky'
+import Newtodo from './Components/Lists/Newtodo'
 
 const App = () => {
   return (
     <div>
-      <Sky/>
+      <Newtodo/>
     </div>
   )
 }
